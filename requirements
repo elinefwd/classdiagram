@@ -1,0 +1,62 @@
+Hierbij de 15 requirements:
+
+1.Beheer Voorraad van Producten
+Actoren: Voorraadbeheerder, Systeem
+Beschrijving: De voorraadbeheerder beheert de voorraad van producten door producten toe te voegen, bij te werken, te verwijderen en de voorraadniveaus te controleren.
+
+2.Toekennen van Gebruikersrechten
+Actoren: Administrator, Gebruiker
+Beschrijving: De administrator wijst specifieke rechten toe aan gebruikers binnen het systeem, waardoor ze toegang hebben tot bepaalde functionaliteiten op basis van hun rol.
+
+3.Registreren van Verkooptransactie
+Actoren: Verkoper, Systeem
+Beschrijving: De verkoper registreert een verkooptransactie door producten te selecteren, de totaalprijs te berekenen en de voorraad bij te werken.
+
+4.Plaatsen en Verwerken van Inkooporder
+Actoren: Inkoper, Systeem
+Beschrijving: De inkoper plaatst een inkooporder voor producten, waarna het systeem de bestelling verwerkt, de voorraad bijwerkt en de totaalprijs berekent.
+
+5.Inzicht in Maandelijkse Verkoopcijfers
+Actoren: Manager, Systeem
+Beschrijving: De manager verkrijgt inzicht in de maandelijkse verkoopcijfers, inclusief totaalverkopen, best verkopende producten en winstgevendheid.
+
+6.Toevoegen van Nieuwe Producten aan de Catalogus
+Actoren: Productbeheerder, Systeem
+Beschrijving: De productbeheerder voegt nieuwe producten toe aan de catalogus, inclusief productinformatie, prijzen en beschikbaarheid.
+
+7.Beveiligingsmechanisme instellen
+Actoren: Beheerder, Systeem
+Beschrijving: De beheerder stelt een beveiligingsmechanisme in om de gevoelige gegevens te beschermen, inclusief toegangscontroles en gegevensencryptie.
+
+8.Genereren van Verkooprapporten
+Actoren: Analist, Systeem
+Beschrijving: De analist genereert verkooprapporten op basis van verkoopdata, waaronder omzet per product, best verkopende producten en winstgevendheid van de zaak.
+
+9.Waarschuwing bij Kritieke Voorraadniveaus
+Actoren: Voorraadbeheerder, Systeem
+Beschrijving: Het systeem waarschuwt de voorraadbeheerder wanneer de voorraad van een product onder een kritiek niveau daalt, zodat actie kan worden ondernomen.
+
+10.Audit Trail van Voorraad en Verkopen
+Actoren: Beheerder, Systeem
+Beschrijving: Het systeem houdt een audit trail bij van alle wijzigingen in de voorraad en verkopen voor nalevings- en rapportagedoeleinden.
+Dit zijn enkele voorbeelden van de uitgebreide functionele requirements als individuele use cases op basis van de oorspronkelijke requirements. Als je verdere uitbreiding of verduidelijking nodig hebt, laat het me weten!
+
+11.Rapportage van Aantal Verkochte Producten
+Actoren: Manager, Systeem
+Beschrijving: De manager genereert rapporten over het aantal verkochte producten, inclusief trends in de verkoop en best verkochte productcategorieën.
+
+12.Automatisch Compatibele Producten Aanbevelen
+Actoren: Verkoper, Systeem
+Beschrijving: Het systeem toont automatisch compatibele producten aan de verkoper tijdens een verkooptransactie, bijvoorbeeld door te adviseren welke accessoires bij een tv passen.
+
+13.Catalogusbeheer voor Productbundels
+Actoren: Productbeheerder, Systeem
+Beschrijving: De productbeheerder beheert bundels van producten in de catalogus, waarbij het systeem de beschikbaarheid en prijzen van productbundels bijhoudt.
+
+14.Notificaties bij Verandering in Prijs of Beschikbaarheid
+Actoren: Klantenservice, Systeem
+Beschrijving: Het systeem stuurt notificaties naar de klantenservice wanneer er wijzigingen zijn in de prijzen of beschikbaarheid van producten, zodat zij klanten kunnen informeren.
+
+15.Mobiele Applicatie voor Toegang tot Systeem
+Actoren: Gebruikers, Systeem
+Beschrijving: De gebruikers kunnen via een mobiele applicatie toegang krijgen tot het systeem, waarbij ze in staat zijn om voorraadgegevens te bekijken, bestellingen te plaatsen en verkooprapporten te genereren.
