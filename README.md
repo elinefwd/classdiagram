@@ -55,3 +55,4 @@ _Tip: Denk bij functionele eisen aan CRUD en kijk op EdHub voor inspiratie om de
   - Bepaal welke relaties er zijn tussen de klassen.
   - Vul alle attributen toe aan de klassen die je nodig denkt te hebben.
 
+# classdiagram
