@@ -1,0 +1,52 @@
+classDiagram
+    class Product {
+        - naam: string
+        - mogelijkheden: string
+        - voorraad: int
+        + getPrice(): float
+    }
+
+    class Gebruiker {
+        - naam: string
+        - rechten: string
+        + getInfo(): string
+    }
+
+    class VoorraadBeheer {
+        - producten: List<Product>
+        - inkomendeVoorraad: int
+        + checkVoorraad(product: Product): int
+    }
+
+    class Verkoop {
+        - producten: List<Product>
+        - totaalPrijs: float
+        + berekenTotaalPrijs(): float
+    }
+
+    class Inkoop {
+        - producten: List<Product>
+        - totaalPrijs: float
+        + plaatsBestelling(): void
+    }
+
+    class Applicatie {
+        - gebruikers: List<Gebruiker>
+        - producten: List<Product>
+        + startApplicatie(): void
+    }
+
+    class RechtenBeheer {
+        - rechten: List<string>
+        + assignRights(user: Gebruiker, rights: string): void
+    }
+
+    Product "1" -- "*" VoorraadBeheer: beheert
+    Product "1" -- "*" Verkoop: verkoopt
+    Product "1" -- "*" Inkoop: koopt
+    Gebruiker "1" -- "1" Applicatie: gebruikt
+    Gebruiker "1" -- "1" RechtenBeheer: beheert
+
+
+%%ik kan het zelf nog niet weergeven zie geen preview met rechtermuisknop daarom ook een screenshot
+%%van de online gemaakte versie
